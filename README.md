@@ -1,2 +1,21 @@
 # symbiote-firmware
-custom open source firmware for the HackBat 1.0 pentest gadget
+
+## About
+Custom, from scratch firmware for the [Hackbat 1.0](https://github.com/controlpaths/hackbat) 
+No firmware was ever publicy released by the original designer, so this project builds an independent firmware from the ground up.
+Own code, own architecture, no reused source. 
+
+## Goals
+
+1. Building a custom menu/UI system. (OLED + button navigation)
+2. Modular support for onboard hardware: NFC, ESP8266 WiFi, RF
+3. Long-term goal is to integrate my own tools (e.g. Python port scanner) as modules.
+
+## Status
+
+Very early development, no functional firmware yet! 
+
+## License
+
+This firmware is released under GPLv3.
+Hardware design credit: controlpaths (CC0)
