@@ -13,7 +13,7 @@ Own code, own architecture, no reused source.
 
 ## Status
 
-Very early development, no functional firmware yet! 
+In developement | OLED display working (SSD1306 driver), buttons/NFC/WiFi not yet implemented.
 
 ## License
 
