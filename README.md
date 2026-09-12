@@ -13,7 +13,9 @@ Own code, own architecture, no reused source.
 
 ## Status
 
-In developement | OLED display working (SSD1306 driver), buttons/NFC/WiFi not yet implemented.
+In developement | OLED display + Up/Down menu navigation working. 
+Left/Enter/Right button are wired but not yet functional.
+NFC/RF/WiFi not yet implemented!
 
 ## License
 
