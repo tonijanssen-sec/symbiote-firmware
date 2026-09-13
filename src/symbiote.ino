@@ -55,6 +55,14 @@ void loop() {
     delay(200);
   }
 
+  if (stateEnter == HIGH) {
+    display.clearDisplay(); // clears display so menuItems don't overlap with entered menuItem
+    display.setCursor(0, 0); 
+    display.println(menuItems[selectedIndex]); // prints the selected menuItem on the display
+    display.display(); // actually shows you on the display, else it would've been only visible in the buffer
+    delay(3000);
+  }
+
   display.clearDisplay();
   for (int i = 0; i < menuLength; i++) {
     display.setCursor(0, i * 10); // column distance so the items don't overlap in the menu, 0=0, 1=10, 2=20
