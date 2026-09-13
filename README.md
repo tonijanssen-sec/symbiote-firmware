@@ -13,8 +13,8 @@ Own code, own architecture, no reused source.
 
 ## Status
 
-In developement | OLED display + Up/Down menu navigation working. 
-Left/Enter/Right button are wired but not yet functional.
+In developement | OLED display + Up/Down/Enter menu navigation working. 
+Left/Right button are wired but not yet functional.
 NFC/RF/WiFi not yet implemented!
 
 ## License
